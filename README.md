@@ -1,5 +1,5 @@
 # SYSU-teaching-evaluation
-中山大学自动评教
+中山大学教务系统自动评教脚本
 
 # 使用教程
 
