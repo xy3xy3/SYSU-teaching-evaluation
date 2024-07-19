@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用心不一定有回应，用力一定有</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="icon" href="assets/logo.svg">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar-brand {
+            font-size: 1.8rem;
+            font-weight: bold;
+
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #0ef3b2;
+        }
+
+        .card {
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial {
+            margin-bottom: 40px;
+        }
+
+        footer {
+            font-size: 0.9rem;
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        @media (min-width: 576px) {
+            .container {
+                max-width: 540px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                max-width: 720px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .container {
+                max-width: 960px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1140px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">StupidOCR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">主页</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/81NewArk/StupidOCR" target="_blank">GitHub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://space.bilibili.com/37887820" target="_blank">Bilibili</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/docs">Api文档</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container py-4">
+        <section class="testimonial">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Fastapi封装，高效便捷。</h5>
+                            <p class="card-text">极速的服务启动 🚀</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">基于DDDDOCR</h5>
+                            <p class="card-text">多种验证码识别。 😎</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="add text-center">
+            <h2>体验极速的OCR服务</h2>
+            <p>使用 StupidOCR，快速、准确地识别各种验证码！</p>
+            <a href="/docs" class="btn btn-primary btn-lg">立即使用</a>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        <div class="container">
+            <p>Code By NewArk81</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
