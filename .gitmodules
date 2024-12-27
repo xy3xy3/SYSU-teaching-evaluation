@@ -1,0 +1,3 @@
+[submodule "StupidOCR"]
+    path = StupidOCR
+    url = https://github.com/81NewArk/StupidOCR
